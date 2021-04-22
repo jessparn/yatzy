@@ -13,10 +13,8 @@ def vissa_om_kastningen(tärning):
 poäng = 0
 poäng_lista = []
 
-spel_slut = false
+spel_slut = False
 while not spel_slut:
-
-
     tärning = []
 
     for d in range(4):
@@ -37,7 +35,7 @@ while not spel_slut:
     
     vissa_om_kastningen(tärning)
     
-    nummer_giltigt=fel
+    nummer_giltigt=False
     while not nummer_giltigt:
         nummer_till_poäng = int(input("vilket numer vill du ska räknas som poäng? "))
         
